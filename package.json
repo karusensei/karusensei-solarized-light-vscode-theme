@@ -1,0 +1,41 @@
+{
+	"name": "karusensei-solarized-light",
+	"displayName": "Karusensei Solarized Light",
+	"description": "Thème clair : interface crème très pâle, dans l'esprit Solarized, et coloration syntaxique de Bluloco Light.",
+	"version": "1.0.0",
+	"publisher": "karusensei",
+	"license": "LGPL-3.0",
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#fdf9ee",
+		"theme": "light"
+	},
+	"engines": {
+		"vscode": "^1.75.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"theme",
+		"light",
+		"solarized",
+		"cream"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"id": "Karusensei Solarized Light",
+				"label": "Karusensei Solarized Light",
+				"uiTheme": "vs",
+				"path": "./themes/karusensei-solarized-light-color-theme.json"
+			},
+			{
+				"id": "Karusensei Solarized Light Italic",
+				"label": "Karusensei Solarized Light Italic",
+				"uiTheme": "vs",
+				"path": "./themes/karusensei-solarized-light-italic-color-theme.json"
+			}
+		]
+	}
+}
